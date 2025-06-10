@@ -1,0 +1,386 @@
+body {
+    margin:0;
+    padding:0;
+    transition: background-color 0.5s;
+    --sb-width: 3rem;
+    font-family: 'Poppins', sans-serif; /* Font changed */
+}
+
+body.sb-expanded{
+    --sb-width: 300px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+#header_container {
+    background:#213555;
+    border:1px solid #666;
+    height:50px;
+    left:0;
+    position:fixed;
+    width:100%;
+    top:0;
+}
+
+#header {
+    line-height:50px;
+    margin:0 auto;
+    width:940px;
+    text-align:center;
+    color: white;
+    padding-left: 0;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif; /* Font changed */
+}
+
+/* sidebar */
+#sidebar{
+    background-color: #f5efe7;
+    position: fixed;
+    inset: 50px auto 0 0;
+    width: var(--sb-width)
+}
+
+#button{
+    color: #616060;
+    scale: 1.5;
+}
+
+#button.hover{
+    color: black;
+}
+
+#list_nav, #ul_list{
+    list-style: none;
+    display: flex;
+    flex-flow: column;
+    gap: 30px;
+    align-items: center;
+}
+
+#ul_list{
+    padding-left: 0;
+}
+
+#list_item, #list_nav {
+    display: flex;
+    font-family: 'Poppins', sans-serif; /* Font changed */
+    line-height: 1;
+    color: #676767;
+    text-decoration: none;
+    font-size: 23px;
+    transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
+}
+
+#center2, #center1, #references, #inhibitors2, #inhibitors1, #pathway_kegg, #protein_interaction,#tip_1, #tip_2, #survey_form:link{
+    color: black;
+    background-color: rgb(237, 237, 237);
+    text-decoration: underline;
+}
+
+#center2, #center1, #references, #inhibitors2, #inhibitors1, #pathway_kegg, #protein_interaction, #tip_1, #tip_2,#survey_form:hover{
+    color: black;
+    background-color: rgb(225, 175, 254);
+    text-decoration: underline;
+}
+
+#center2, #center1, #references, #inhibitors2, #inhibitors1, #pathway_kegg, #protein_interaction, #tip_1, #tip_2,#survey_form:visited{
+    color: black;
+    background-color: rgb(237, 237, 237);
+    text-decoration: underline;
+}
+
+#list_span, #list_item, #list_nav {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.sb-expanded #list_span, #list_item, #list_nav {
+    opacity: 1;
+    visibility: visible
+}
+
+#index {
+    opacity: 1;
+    visibility: visible;
+    text-orientation: mixed;
+}
+
+#index h4 { /* Added specific font for sidebar index heading */
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.sb-expanded #index{
+    opacity: 0;
+    visibility: hidden;
+}
+
+.sb-expanded #sidebar .bx-chevrons-right{
+    rotate: 180deg
+}
+
+/* main content */
+#title{
+    font-family: 'Montserrat', sans-serif; /* Font changed */
+}
+
+#main{
+    padding-top: 50px;
+    padding-left: 3rem;
+    transition: margin-left 0.5s ease-in-out;
+    font-family: 'Poppins', sans-serif; /* Applied general font for main content */
+}
+
+h1{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif; /* Font changed */
+}
+
+h2{
+    font-size: 30px;
+    padding-top: 60px;
+    font-family: 'Montserrat', sans-serif; /* Font changed */
+}
+
+h3, h4 { /* Applied font to all h3, h4 for consistency */
+    font-family: 'Poppins', sans-serif;
+}
+
+p, li { /* Applied font to paragraphs and list items for consistency */
+    font-family: 'Poppins', sans-serif;
+}
+
+select { /* Applied font to select elements */
+    font-family: 'Poppins', sans-serif;
+}
+
+
+hr{
+    margin-bottom: 30px;
+    margin-right: 45px;
+}
+
+@media(min-width:768px){
+    main{
+        margin-left: var(--sb-width);
+    }
+}
+
+#pie_table{
+    border-color: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#piechart {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-image: conic-gradient(
+        rgb(204, 0, 245) 0 270deg,
+        rgb(93, 0, 103) 0
+    );
+}
+
+#excel{
+    width: 680px;
+    height: 500px;
+    margin: auto;
+    display: block;
+}
+
+#topic {
+    width: 30px;
+    height: 10px;
+    display: inline-block;
+}
+
+#bar_chart{
+    margin: auto;
+    display: block;
+}
+
+#ppi_network{
+    width: 600px;
+    height:600px;
+    margin: auto;
+    display: block;
+}
+
+#pathway_img{
+    width: 700px;
+    height:700px;
+    margin: auto;
+    display: block;
+}
+
+#drug_img{
+    width: 500px;
+    height:400px;
+    margin: auto;
+    display: block;
+}
+
+#about_img{
+    width: 700px;
+    height:500px;
+    margin: auto;
+    display: block;
+}
+
+#pdf{
+    width: 700px;
+    height: 700px;
+    margin: auto;
+    display: block;
+}
+
+/* Make Footer Sticky */
+#footer_container {
+    background:#213555;
+    border:1px solid #666;
+    bottom:0;
+    height:30px;
+    left:0;
+    position:fixed;
+    width:100%;
+}
+
+#footer {
+    line-height:30px;
+    margin:0 auto;
+    width:940px;
+    text-align:center;
+    color: black;
+    font-family: 'Poppins', sans-serif; /* Font changed */
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background: none;
+}
+::-webkit-scrollbar-thumb {
+    background: #c1c1c1;
+    border-radius: 8px;
+}
+
+/* General table styling */
+#genetics_table {
+    width: 100%;
+    border-collapse: collapse; /* Collapses borders between cells */
+    margin: 20px 0;
+    font-family: 'Poppins', sans-serif; /* Font changed */
+}
+
+/* Table header styling */
+#genetics_table th {
+    background-color: #f2f2f2;
+    color: #333;
+    font-weight: bold;
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+    font-family: 'Montserrat', sans-serif; /* Font changed */
+}
+
+/* Table data cell styling */
+#genetics_table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    vertical-align: top;
+    font-family: 'Poppins', sans-serif; /* Font changed */
+}
+
+/* Alternating row colors for better readability */
+#genetics_table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Hover effect on rows */
+#genetics_table tr:hover {
+    background-color: #e9e9e9;
+}
+
+/* Link styling within the table */
+#genetics_table td a {
+    color: #007bff; /* A nice blue for links */
+    text-decoration: none; /* Removes underline by default */
+}
+
+#genetics_table td a:hover {
+    text-decoration: underline; /* Adds underline on hover */
+    color: #0056b3; /* Darker blue on hover */
+}
+
+/* General table styling */
+#protein_table {
+    width: 100%;
+    border-collapse: collapse; /* Collapses borders between cells */
+    margin: 20px 0;
+    font-family: 'Poppins', sans-serif; /* Font changed */
+}
+
+/* Table header styling */
+#protein_table th {
+    background-color: #f2f2f2;
+    color: #333;
+    font-weight: bold;
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+    font-family: 'Montserrat', sans-serif; /* Font changed */
+}
+
+/* Table data cell styling */
+#protein_table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    vertical-align: top;
+    font-family: 'Poppins', sans-serif; /* Font changed */
+}
+
+/* Alternating row colors for better readability */
+#protein_table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Hover effect on rows */
+#protein_table tr:hover {
+    background-color: #e9e9e9;
+}
+
+/* Link styling within the table */
+#protein_table td a {
+    color: #007bff; /* A nice blue for links */
+    text-decoration: none; /* Removes underline by default */
+}
+
+#protein_table td a:hover {
+    text-decoration: underline; /* Adds underline on hover */
+    color: #0056b3; /* Darker blue on hover */
+}
+
+#footer_container {
+    background:#213555;
+    border:1px solid #666;
+    bottom:0;
+    height:30px;
+    left:0;
+    position:fixed;
+    width:100%;
+}
+
+#footer {
+    line-height:30px;
+    margin:0 auto;
+    width:940px;
+    text-align:center;
+    color: white; /* Changed to white for better visibility on dark background */
+    font-family: 'Poppins', sans-serif; /* Retained font from previous change */
+    font-size: 0.9em; /* Added font size for readability */
+}

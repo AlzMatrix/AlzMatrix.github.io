@@ -1,0 +1,1037 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="secondpage.css">
+    <!-- <link href='https://fonts.googleapis.com/css?family=Alice' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Anton' rel='stylesheet'> -->
+    <link href='https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Poppins:wght@400;600&display=swap' rel='stylesheet'>
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+
+</head>
+<body class="sb-expanded" background="images/AlzMatrix2.png"> 
+
+    <div id="header_container">
+        <div id="header">
+            AlzMatrix
+        </div>
+    </div>
+
+    <!-- <div id="wrapper">
+        <div id="sidebar">
+            <ul>
+                <li>Home</li>
+                <li>About Alzeihmer's</li>
+                <li>Awareness & Survey</li>
+                <li>Genetics</li>
+                <li>Proteins & Networks</li>
+                <li>Pathways</li>
+                <li>Drugs & Treatments</li>
+                <li>Caregiver Guide</li>
+                <li>Support & Helplines</li>
+            </ul>
+
+        </div>
+
+        <div id="main">
+            <p>this is main content</p>
+        </div>
+    </div> -->
+
+
+    <aside id="sidebar">
+        
+        
+        <nav id="list_nav">
+            <ul id="ul_list">
+                <li>
+                    <a href="" data-resize-btn id="button"><i class="bx bx-chevrons-right" id="button"></i></a>
+                </li>
+                <li>
+                    <a id="list_item" href="index.html"><span id="list_span">Home</span></a>
+                </li>
+                <li>
+                    <a id="list_item" href="#about_ad"><span id="list_span">About Alzeihmer's</span></a>
+                </li>
+                <li>
+                    <a id="list_item" href="#aware"><span id="list_span">Awareness & Survey</span></a>
+                </li>
+                <li>
+                    <a id="list_item" href="#genes"><span id="list_span">Genetics</span></a>
+                </li>
+                <li>
+                    <a id="list_item" href="#proteins"><span id="list_span">Proteins & Networks</span></a>
+                </li>
+                <li>
+                    <a id="list_item" href="#pathways"><span id="list_span">Pathways</span></a>
+                </li>
+                <li>
+                    <a id="list_item" href="#drugs"><span id="list_span">Drugs & Treatments</span></a>
+                </li>
+                <li>
+                    <a id="list_item" href="#guide"><span id="list_span">Caregiver Guide</span></a>
+                </li>
+                <li>
+                    <a id="list_item" href="#support"><span id="list_span">Support & Helplines</span></a>
+                </li>
+            </ul>
+        </nav>
+
+        <div id="index">
+            <h4>INDEX</h4>
+        </div>
+
+    </aside>
+
+    <main id="main">
+        <h1 id="title">AlzMatrix</h1>
+
+        <hr>
+        <br>
+
+        <div id="about_ad">
+            <h2 id="about_ad_h2">About Alzheimer's</h2>
+            <select id="selectBox" onchange="changeFunc();">
+                <option value="eng">English</option>
+                <option value="mar">Marathi</option>
+                <option value="hin">Hindi</option>
+              </select>
+            <!-- <h3 id="about_ad_h3_1">Understanding the disease</h3>
+            <p id="about_ad_p1">Alzheimer’s Disease (AD) is a progressive neurodegenerative disorder that primarily affects memory, thinking, and behavior. It is the most common cause of dementia, impacting millions worldwide.
+            </p>
+            <h3 id="about_ad_h3_2">What happens in AD</h3>
+            <p id="about_ad_p2">Accumulation of beta-amyloid plaques and tau tangles in the brain.
+                Loss of neuronal connections and brain cell death.
+                Gradual decline in cognitive functions, leading to memory loss and confusion.
+                </p>
+            <h3 id="about_ad_h3_3">Why does it matter?</h3>
+            <p id="about_ad_p3">No cure currently exists, and treatments only manage symptoms.
+                Early detection can help slow disease progression and improve quality of life.</p> -->
+
+            
+            <h3 id="about_ad_h3_4">Summary of the paper on Alzheimer’s Disease</h3>
+            <ol id="about_ad_ol">
+                <li><h4 id="about_ad_h4_1">Population Impact</h4>
+                    <p id="about_ad_p_1">Globally, 32.3 million people have Alzheimer's dementia (11.4 million men, 20.9 million women).<br>
+                        In Europe, 6.9 million people are affected (1.9 million men, 5.0 million women).<br>
+                        In the U.S., 6.9 million Americans aged 65+ have AD, projected to reach 13.8 million by 2060 without medical breakthroughs.</p>
+                </li>
+                <li><h4 id="about_ad_h4_2">Disease Overview</h4>
+                    <p id="about_ad_p_2">Alzheimer’s disease (AD) is a neurodegenerative disorder marked by:<br>
+
+                        β-amyloid (Aβ) plaques and hyperphosphorylated tau (pTau) tangles<br>
+                        Memory loss and cognitive decline<br>
+                        Unclear disease mechanisms and lack of treatments to halt progression
+                        </p>
+                </li>
+                <li><h4 id="about_ad_h4_3">Risk Factors</h4>
+                    <ul>
+                        <li><p id="about_ad_p_3">✅Genetics:<br>
+                        APOE4 is the strongest genetic risk factor for AD.<br>
+                            Familial AD (FAD) is linked to mutations in APP, PSEN1, and PSEN2 genes.
+                            </p>
+                        </li>
+                        <li><p id="about_ad_p_4">✅Environmental & Metabolic Factors:<br>
+                            Aging, inflammation, infections, diabetes, and lifestyle factors contribute to AD.
+                            </p>
+                        </li>
+                    </ul>
+                </li>
+                <li><h4 id="about_ad_h4_4">Pathology & Mechanisms</h4>
+                    <p id="about_ad_p_5">Aβ Accumulation: Impaired clearance leads to neurotoxicity and inflammation.<br>
+                        Tau Pathology: Abnormal tau aggregation spreads neurodegeneration.<br>
+                        Neuroinflammation: Microglial activation plays a role in disease progression.
+                        </p>
+                </li>
+                <li><h4 id="about_ad_h4_5">Diagnosis & Drug Development</h4>
+                    <p id="about_ad_p_6">🔬Biomarkers: Studied in CSF (Cerebrospinal fluid) and peripheral blood.<br>
+                        💊 Current Drugs: Cholinesterase inhibitors and NMDA antagonists only manage symptoms.<br>
+                        🧪 Emerging Therapies: Aβ-targeting drugs and tau-focused treatments.
+                        </p>
+                </li>
+                <li><h4 id="about_ad_h4_6">APOE4 & Alzheimer’s Disease</h4>
+                    <p id="about_ad_p_7">🔹 APOE4 affects lipid transport, neurovascular function, and microglial activity.<br>
+                        🔹 Carriers have an increased risk and earlier onset of AD.<br>
+                        🔹 Targeting APOE4 could lead to new therapeutic strategies.
+                        </p>
+                </li>
+                <li><h4 id="about_ad_h4_7">Sex Differences in Alzheimer’s Disease</h4>
+                    <p id="about_ad_p_8">💡 Women are more affected than men due to biological differences:<br>
+                        Hormones: Estrogen decline post-menopause increases risk.<br>
+                        Genetics: X chromosome-linked genes play a role.<br>
+                        Metabolism: Age-related Y chromosome loss is linked to neurodegeneration.<br>
+                        Research Bias: Historically male-focused, but tools like XWAS now uncover sex-specific genetic factors.
+                    </p>
+                </li>
+                <li><h4 id="about_ad_h4_8">Epigenetic Clocks & Alzheimer’s Disease</h4>
+                    <p id="about_ad_p_9">🧬 Epigenetic clocks measure biological aging through DNA methylation patterns:<br>
+                        📌 First-generation clocks (Hannum, Horvath) estimate age but have limitations.<br>
+                        📌 Second-generation clocks (PhenoAge, GrimAge) predict health risks and lifespan.<br>
+                        📌 Third-generation clocks (DunedinPoAm, DunedinPACE) track biological aging rate.<br>
+                        📌 Brain-specific clocks (DNAmClockCortical, PCBrainAge) detect changes linked to neurodegeneration.
+                    </p>
+                </li>
+            </ol>
+
+            <img id="about_img" src="images/about_eng.jpg" alt="">
+
+            <h4>References</h4>
+            <p style="font-size: 14px;">
+                Krishnamurthy HK, Jayaraman V, Krishna K, Wang T, Bei K, Changalath C, Rajasekaran JJ. 
+                <b>An overview of the genes and biomarkers in Alzheimer's disease.</b> Ageing Res Rev. 2025 Feb;104:102599. 
+                doi: 10.1016/j.arr.2024.102599. Epub 2024 Nov 28. PMID: 39612989.<br><br>
+
+
+                Zheng Q, Wang X. <b>Alzheimer's disease: insights into pathology, molecular mechanisms, and therapy.</b> 
+                Protein Cell. 2025 Feb 1;16(2):83-120. doi: 10.1093/procel/pwae026. PMID: 38733347; PMCID: PMC11786724.<br><br>
+
+
+                Liu E, Zhang Y, Wang JZ. <b>Updates in Alzheimer's disease: from basic research to diagnosis and therapies.</b> 
+                Transl Neurodegener. 2024 Sep 4;13(1):45. doi: 10.1186/s40035-024-00432-x. PMID: 39232848; 
+                PMCID: PMC11373277. (DIAGNOSIS)<br><br>
+
+
+                Lopez-Lee C, Torres ERS, Carling G, Gan L. <b>Mechanisms of sex differences in Alzheimer's disease.</b>
+                Neuron. 2024 Apr 17;112(8):1208-1221. doi: 10.1016/j.neuron.2024.01.024. Epub 2024 Feb 22. 
+                PMID: 38402606; PMCID: PMC11076015. (SEX DIFFERENCES)<br><br>
+
+                Villa C, Combi R. <b>Epigenetics in Alzheimer's Disease: A Critical Overview. </b>Int J Mol Sci. 
+                2024 May 29;25(11):5970. doi: 10.3390/ijms25115970. PMID: 38892155; PMCID: PMC11173284. (EPIGENETICS)<br><br>
+
+            </p>
+
+        
+        </div>
+
+        <hr>
+
+        <div id="aware">
+            <h2 id="aware_h2">Awareness & Survey</h2>
+            
+            <h3 id="aware_h3_1">Survey insights and the need for awareness</h3>
+
+            <select id="selectBox2" onchange="changeFunc2();">
+                <option value="eng">English</option>
+                <option value="mar">Marathi</option>
+                <option value="hin">Hindi</option>
+              </select><br><br>
+            <a id="survey_form" href="https://docs.google.com/forms/d/e/1FAIpQLSf1Qo3veVBKrddcrHKCTvaTiHQCVi0uPwscwUhgrA3FA7Ocig/viewform?usp=header">Fill Survey Form in English</a>
+            <h3 id="aware_h3_2">Survey Evaluation</h3>
+
+            <table id="pie_table">
+                <td><div id="piechart"></div></td>
+                <td><div id="pie_index">
+                    <ul>
+                        <li id="aware_li1">Good 154/205 :   24.9% <span id="topic" style="background-color: rgb(93, 0, 103);"></span></li>
+                        <li id="aware_li2">Poor 51/205 :    75.1% <span id="topic" style="background-color: rgb(204, 0, 245);"></span></li>                    </ul>
+                </div></td>
+            </table>
+
+            <img id="bar_chart" src="images/barchart.jpg" alt="">
+
+            <br>
+
+            <iframe id="excel" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQ74wCC07UPTKp6LDgj2RJAR5zOXy7xBnPYxe-usBwbx4OoOt7iPDifdPAORWttrsbyppCI_W58D0nC/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+
+            <p>The survey assessed public awareness and misconceptions about Alzheimer's disease. The results indicate <b>widespread misconceptions</b> regarding the disease's causes, symptoms, and management.</p>
+            <ul>
+                <li>Basic Understanding:
+                    <ul>
+                        <li>42% correctly identified that Alzheimer's is a type of dementia with no cure, while 58% were incorrect.</li>
+                        <li>Only 37% knew that people in their 30s can have Alzheimer's.</li>
+                        <li>24.4% falsely believed Alzheimer's could result from black magic or a bad eye.</li>
+                    </ul>
+                </li>
+
+                <li>Risk Factors & Prevention:
+                    <ul>
+                        <li>73% were unaware that high blood pressure or cholesterol increases Alzheimer’s risk.
+                        </li>
+                        <li>Only 12% knew that mental exercise does not fully prevent Alzheimer's.
+                        </li>
+                        <li>46% recognized that poor nutrition can worsen symptoms.
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    Symptoms & Diagnosis:
+                    <ul>
+                        <li>63% did not know trouble handling money could be an early symptom.
+                        </li>
+                        <li>75% mistakenly believed sudden confusion is likely due to Alzheimer's.
+                        </li>
+                        <li>72% falsely thought people with Alzheimer's remember recent events better than older ones.
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    Treatment & Care:
+                    <ul>
+                        <li> 8.7% falsely believe that prescription drugs can slow disease progression.
+                        </li>
+                        <li>
+                            47.8% understood that people with Alzheimer's eventually need 24-hour supervision.
+                        </li>
+                        <li>44% agreed that psychotherapy can help in early stages.
+                        </li>
+                        <li>83% incorrectly believed reminding patients about repetition is helpful.
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    Social Perceptions:
+                    <ul>
+                        <li>
+                            Some survey questions on social attitudes (e.g., care in state-run nursing homes, embarrassment, and social participation) were left unanswered, possibly indicating hesitation in discussing societal stigma.
+
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+
+            <p>The survey highlights significant misconceptions about Alzheimer's disease, particularly regarding risk factors, symptoms, and treatment. Educational efforts are needed to correct these misunderstandings and promote better awareness and early detection.
+            </p>
+        </div>
+
+        <hr>
+
+        <div id="genes">
+            <h2>Genetics</h2>
+            <h3>Key genes associated with AD</h3>
+            <h4>Click on Gene to know more</h4>
+            <table id="genetics_table">
+                <thead>
+                    <tr>
+                        <th>Gene ID</th>
+                        <th>Gene</th>
+                        <th>Gene Name</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><a href="https://www.ncbi.nlm.nih.gov/gene/?term=5536">5536</a></td>
+                        <td><a href="https://www.ncbi.nlm.nih.gov/gene/?term=5536">PPP5C</a></td>
+                        <td><a href="https://www.ncbi.nlm.nih.gov/gene/?term=5536">protein phosphatase 5 catalytic subunit</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://www.ncbi.nlm.nih.gov/gene/?term=80863">80863</a></td>
+                        <td><a href="https://www.ncbi.nlm.nih.gov/gene/?term=80863">PRRT1</a></td>
+                        <td><a href="https://www.ncbi.nlm.nih.gov/gene/?term=80863">proline rich transmembrane protein 1</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://www.ncbi.nlm.nih.gov/gene/?term=2931">2931</a></td>
+                        <td><a href="https://www.ncbi.nlm.nih.gov/gene/?term=2931">GSK3A</a></td>
+                        <td><a href="https://www.ncbi.nlm.nih.gov/gene/?term=2931">glycogen synthase kinase 3 alpha</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://www.ncbi.nlm.nih.gov/gene/?term=1509">1509</a></td>
+                        <td><a href="https://www.ncbi.nlm.nih.gov/gene/?term=1509">CTSD</a></td>
+                        <td><a href="https://www.ncbi.nlm.nih.gov/gene/?term=1509">cathepsin D</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://www.ncbi.nlm.nih.gov/gene/?term=90332">90332</a></td>
+                        <td><a href="https://www.ncbi.nlm.nih.gov/gene/?term=90332">EXOC3L2</a></td>
+                        <td><a href="https://www.ncbi.nlm.nih.gov/gene/?term=90332">exocyst complex component 3 like 2</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://www.ncbi.nlm.nih.gov/gene/?term=348">348</a></td>
+                        <td><a href="https://www.ncbi.nlm.nih.gov/gene/?term=348">APOE</a></td>
+                        <td><a href="https://www.ncbi.nlm.nih.gov/gene/?term=348">apolipoprotein E</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://www.ncbi.nlm.nih.gov/gene/?term=325">325</a></td>
+                        <td><a href="https://www.ncbi.nlm.nih.gov/gene/?term=325">APCS</a></td>
+                        <td><a href="https://www.ncbi.nlm.nih.gov/gene/?term=325">amyloid P component, serum</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://www.ncbi.nlm.nih.gov/gene/?term=6653">6653</a></td>
+                        <td><a href="https://www.ncbi.nlm.nih.gov/gene/?term=6653">SORL1</a></td>
+                        <td><a href="https://www.ncbi.nlm.nih.gov/gene/?term=6653">sortilin related receptor 1</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://www.ncbi.nlm.nih.gov/gene/?term=2230">2230</a></td>
+                        <td><a href="https://www.ncbi.nlm.nih.gov/gene/?term=2230">FDX1</a></td>
+                        <td><a href="https://www.ncbi.nlm.nih.gov/gene/?term=2230">ferredoxin 1</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://www.ncbi.nlm.nih.gov/gene/?term=102">102</a></td>
+                        <td><a href="https://www.ncbi.nlm.nih.gov/gene/?term=102">ADAM10</a></td>
+                        <td><a href="https://www.ncbi.nlm.nih.gov/gene/?term=102">ADAM metallopeptidase domain 10</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://www.ncbi.nlm.nih.gov/gene/?term=10347">10347</a></td>
+                        <td><a href="https://www.ncbi.nlm.nih.gov/gene/?term=10347">ABCA7</a></td>
+                        <td><a href="https://www.ncbi.nlm.nih.gov/gene/?term=10347">ATP binding cassette subfamily A member 7</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://www.ncbi.nlm.nih.gov/gene/?term=27143">27143</a></td>
+                        <td><a href="https://www.ncbi.nlm.nih.gov/gene/?term=27143">PALD1</a></td>
+                        <td><a href="https://www.ncbi.nlm.nih.gov/gene/?term=27143">phosphatase domain containing paladin 1</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://www.ncbi.nlm.nih.gov/gene/?term=3416">3416</a></td>
+                        <td><a href="https://www.ncbi.nlm.nih.gov/gene/?term=3416">IDE</a></td>
+                        <td><a href="https://www.ncbi.nlm.nih.gov/gene/?term=3416">insulin degrading enzyme</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://www.ncbi.nlm.nih.gov/gene/?term=351">351</a></td>
+                        <td><a href="https://www.ncbi.nlm.nih.gov/gene/?term=351">APP</a></td>
+                        <td><a href="https://www.ncbi.nlm.nih.gov/gene/?term=351">amyloid beta precursor protein</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://www.ncbi.nlm.nih.gov/gene/?term=43">43</a></td>
+                        <td><a href="https://www.ncbi.nlm.nih.gov/gene/?term=43">ACHE</a></td>
+                        <td><a href="https://www.ncbi.nlm.nih.gov/gene/?term=43">acetylcholinesterase (Yt blood group)</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://www.ncbi.nlm.nih.gov/gene/?term=84437">84437</a></td>
+                        <td><a href="https://www.ncbi.nlm.nih.gov/gene/?term=84437">MSANTD4</a></td>
+                        <td><a href="https://www.ncbi.nlm.nih.gov/gene/?term=84437">Myb/SANT DNA binding domain containing 4 with coiled-coils</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://www.ncbi.nlm.nih.gov/gene/?term=1191">1191</a></td>
+                        <td><a href="https://www.ncbi.nlm.nih.gov/gene/?term=1191">CLU</a></td>
+                        <td><a href="https://www.ncbi.nlm.nih.gov/gene/?term=1191">clusterin</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://www.ncbi.nlm.nih.gov/gene/?term=23621">23621</a></td>
+                        <td><a href="https://www.ncbi.nlm.nih.gov/gene/?term=23621">BACE1</a></td>
+                        <td><a href="https://www.ncbi.nlm.nih.gov/gene/?term=23621">beta-secretase 1</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://www.ncbi.nlm.nih.gov/gene/?term=2">2</a></td>
+                        <td><a href="https://www.ncbi.nlm.nih.gov/gene/?term=2">A2M</a></td>
+                        <td><a href="https://www.ncbi.nlm.nih.gov/gene/?term=2">alpha-2-macroglobulin</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://www.ncbi.nlm.nih.gov/gene/?term=2932">2932</a></td>
+                        <td><a href="https://www.ncbi.nlm.nih.gov/gene/?term=2932">GSK3B</a></td>
+                        <td><a href="https://www.ncbi.nlm.nih.gov/gene/?term=2932">glycogen synthase kinase 3 beta</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://www.ncbi.nlm.nih.gov/gene/?term=5663">5663</a></td>
+                        <td><a href="https://www.ncbi.nlm.nih.gov/gene/?term=5663">PSEN1</a></td>
+                        <td><a href="https://www.ncbi.nlm.nih.gov/gene/?term=5663">presenilin 1</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://www.ncbi.nlm.nih.gov/gene/?term=4137">4137</a></td>
+                        <td><a href="https://www.ncbi.nlm.nih.gov/gene/?term=4137">MAPT</a></td>
+                        <td><a href="https://www.ncbi.nlm.nih.gov/gene/?term=4137">microtubule associated protein tau</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://www.ncbi.nlm.nih.gov/gene/?term=1508%5Buid%5D">1508</a></td>
+                        <td><a href="https://www.ncbi.nlm.nih.gov/gene/?term=1508%5Buid%5D">CTSB</a></td>
+                        <td><a href="https://www.ncbi.nlm.nih.gov/gene/?term=1508%5Buid%5D">cathepsin B</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://www.ncbi.nlm.nih.gov/gene/?term=50488">50488</a></td>
+                        <td><a href="https://www.ncbi.nlm.nih.gov/gene/?term=50488">MINK1</a></td>
+                        <td><a href="https://www.ncbi.nlm.nih.gov/gene/?term=50488">misshapen like kinase 1</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://www.ncbi.nlm.nih.gov/gene/?term=399687">399687</a></td>
+                        <td><a href="https://www.ncbi.nlm.nih.gov/gene/?term=399687">TIAF1</a></td>
+                        <td><a href="https://www.ncbi.nlm.nih.gov/gene/?term=399687">myosin XVIIIA</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://www.ncbi.nlm.nih.gov/gene/?term=9895">9895</a></td>
+                        <td><a href="https://www.ncbi.nlm.nih.gov/gene/?term=9895">TECPR2</a></td>
+                        <td><a href="https://www.ncbi.nlm.nih.gov/gene/?term=9895">tectonin beta-propeller repeat containing 2</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://www.ncbi.nlm.nih.gov/gene/?term=4535">4535</a></td>
+                        <td><a href="https://www.ncbi.nlm.nih.gov/gene/?term=4535">MT-ND1</a></td>
+                        <td><a href="https://www.ncbi.nlm.nih.gov/gene/?term=4535">mitochondrially encoded NADH dehydrogenase 1</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://www.ncbi.nlm.nih.gov/gene/?term=4536%5Buid%5D">4536</a></td>
+                        <td><a href="https://www.ncbi.nlm.nih.gov/gene/?term=4536%5Buid%5D">MT-ND2</a></td>
+                        <td><a href="https://www.ncbi.nlm.nih.gov/gene/?term=4536%5Buid%5D">mitochondrially encoded NADH dehydrogenase 2</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://www.ncbi.nlm.nih.gov/gene/?term=5664">5664</a></td>
+                        <td><a href="https://www.ncbi.nlm.nih.gov/gene/?term=5664">PSEN2</a></td>
+                        <td><a href="https://www.ncbi.nlm.nih.gov/gene/?term=5664">presenilin 2</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://www.ncbi.nlm.nih.gov/gene/?term=55103">55103</a></td>
+                        <td><a href="https://www.ncbi.nlm.nih.gov/gene/?term=55103">RALGPS2</a></td>
+                        <td><a href="https://www.ncbi.nlm.nih.gov/gene/?term=55103">Ral GEF with PH domain and SH3 binding motif 2</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://www.ncbi.nlm.nih.gov/gene/?term=54209">54209</a></td>
+                        <td><a href="https://www.ncbi.nlm.nih.gov/gene/?term=54209">TREM2</a></td>
+                        <td><a href="https://www.ncbi.nlm.nih.gov/gene/?term=54209">triggering receptor expressed on myeloid cells 2</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://www.ncbi.nlm.nih.gov/gene/?term=3339">3339</a></td>
+                        <td><a href="https://www.ncbi.nlm.nih.gov/gene/?term=3339">HSPG2</a></td>
+                        <td><a href="https://www.ncbi.nlm.nih.gov/gene/?term=3339">heparan sulfate proteoglycan 2</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://www.ncbi.nlm.nih.gov/gene/?term=1627">1627</a></td>
+                        <td><a href="https://www.ncbi.nlm.nih.gov/gene/?term=1627">DBN1</a></td>
+                        <td><a href="https://www.ncbi.nlm.nih.gov/gene/?term=1627">drebrin 1</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://www.ncbi.nlm.nih.gov/gene/?term=1471">1471</a></td>
+                        <td><a href="https://www.ncbi.nlm.nih.gov/gene/?term=1471">CST3</a></td>
+                        <td><a href="https://www.ncbi.nlm.nih.gov/gene/?term=1471">cystatin C</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://www.ncbi.nlm.nih.gov/gene/?term=3569">3569</a></td>
+                        <td><a href="https://www.ncbi.nlm.nih.gov/gene/?term=3569">IL6</a></td>
+                        <td><a href="https://www.nlm.nih.gov/gene/?term=3569">interleukin 6</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://www.ncbi.nlm.nih.gov/gene/?term=8633">8633</a></td>
+                        <td><a href="https://www.ncbi.nlm.nih.gov/gene/?term=8633">UNC5C</a></td>
+                        <td><a href="https://www.ncbi.nlm.nih.gov/gene/?term=8633">unc-5 netrin receptor C</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://www.ncbi.nlm.nih.gov/gene/?term=10452">10452</a></td>
+                        <td><a href="https://www.ncbi.nlm.nih.gov/gene/?term=10452">TOMM40</a></td>
+                        <td><a href="https://www.ncbi.nlm.nih.gov/gene/?term=10452">translocase of outer mitochondrial membrane 40</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://www.ncbi.nlm.nih.gov/gene/?term=627">627</a></td>
+                        <td><a href="https://www.ncbi.nlm.nih.gov/gene/?term=627">BDNF</a></td>
+                        <td><a href="https://www.ncbi.nlm.nih.gov/gene/?term=627">brain derived neurotrophic factor</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://www.ncbi.nlm.nih.gov/gene/?term=1379">1379</a></td>
+                        <td><a href="https://www.ncbi.nlm.nih.gov/gene/?term=1379">CR1L</a></td>
+                        <td><a href="https://www.ncbi.nlm.nih.gov/gene/?term=1379">complement C3b/C4b receptor 1 like</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://www.ncbi.nlm.nih.gov/gene/?term=12">12</a></td>
+                        <td><a href="https://www.ncbi.nlm.nih.gov/gene/?term=12">SERPINA3</a></td>
+                        <td><a href="https://www.ncbi.nlm.nih.gov/gene/?term=12">serpin family A member 3</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://www.ncbi.nlm.nih.gov/gene/?term=6622">6622</a></td>
+                        <td><a href="https://www.ncbi.nlm.nih.gov/gene/?term=6622">SNCA</a></td>
+                        <td><a href="https://www.ncbi.nlm.nih.gov/gene/?term=6622">synuclein alpha</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <hr>
+
+        <div id="proteins">
+            <h2>Proteins & Networks</h2>
+            <h3><a id="protein_interaction" href="https://string-db.org/cgi/network?taskId=bgGNjqKSHPni&sessionId=bNcvm1R1k68w">Protein Interaction network using StringDB</a></h3>
+            <!-- <table id="genetics_table" style="border: 1px solid black;">
+                <tr>
+                    <th style="border: 1px solid black;">Sr. No.</th>
+                    <th style="border: 1px solid black;">Protein Name</th>
+                    <th style="border: 1px solid black;">Link to Source</th>
+                </tr>
+
+                <tr>
+                    <td style="border: 1px solid black;">1</td>
+                    <td style="border: 1px solid black;">Protein 1</td>
+                    <td style="border: 1px solid black;"><a href="">Link 1</a></td>
+                </tr> 
+            </table> -->
+
+            <img id="ppi_network" src="images/protein2.jpg" alt="">
+            <table id="protein_table">
+                <thead>
+                    <tr>
+                        <th>Protein ID</th>
+                        <th>Protein Name</th>
+                        <th>Gene</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><a href="https://www.uniprot.org/uniprotkb/P53041/entry">P53041</a></td>
+                        <td><a href="https://www.uniprot.org/uniprotkb/P53041/entry">Serine/threonine-protein phosphatase 5</a></td>
+                        <td><a href="https://www.uniprot.org/uniprotkb/P53041/entry">PPP5C</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://www.uniprot.org/uniprotkb/Q99946/entry">Q99946</a></td>
+                        <td><a href="https://www.uniprot.org/uniprotkb/Q99946/entry">Proline-rich transmembrane protein 1</a></td>
+                        <td><a href="https://www.uniprot.org/uniprotkb/Q99946/entry">PRRT1</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://www.uniprot.org/uniprotkb/P49840/entry">P49840</a></td>
+                        <td><a href="https://www.uniprot.org/uniprotkb/P49840/entry">Glycogen synthase kinase-3 alpha</a></td>
+                        <td><a href="https://www.uniprot.org/uniprotkb/P49840/entry">GSK3A</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://www.uniprot.org/uniprotkb/P07339/entry">P07339</a></td>
+                        <td><a href="https://www.uniprot.org/uniprotkb/P07339/entry">Cathepsin D</a></td>
+                        <td><a href="https://www.uniprot.org/uniprotkb/P07339/entry">CTSD</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://www.uniprot.org/uniprotkb/Q8TDV2/entry">Q8TDV2</a></td>
+                        <td><a href="https://www.uniprot.org/uniprotkb/Q8TDV2/entry">Probable G-protein coupled receptor 148</a></td>
+                        <td><a href="https://www.uniprot.org/uniprotkb/Q8TDV2/entry">EXOC3L2</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://www.uniprot.org/uniprotkb/P02649/entry">P02649</a></td>
+                        <td><a href="https://www.uniprot.org/uniprotkb/P02649/entry">Apolipoprotein E</a></td>
+                        <td><a href="https://www.uniprot.org/uniprotkb/P02649/entry">APOE</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://www.uniprot.org/uniprotkb/P02743/entry">P02743</a></td>
+                        <td><a href="https://www.uniprot.org/uniprotkb/P02743/entry">Serum amyloid P-component</a></td>
+                        <td><a href="https://www.uniprot.org/uniprotkb/P02743/entry">APCS</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://www.uniprot.org/uniprotkb/Q92673/entry">Q92673</a></td>
+                        <td><a href="https://www.uniprot.org/uniprotkb/Q92673/entry">Sortilin-related receptor</a></td>
+                        <td><a href="https://www.uniprot.org/uniprotkb/Q92673/entry">SORL1</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://www.uniprot.org/uniprotkb/P10109/entry">P10109</a></td>
+                        <td><a href="https://www.uniprot.org/uniprotkb/P10109/entry">Adrenodoxin, mitochondrial</a></td>
+                        <td><a href="https://www.uniprot.org/uniprotkb/P10109/entry">FDX1</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://www.uniprot.org/uniprotkb/O14672/entry">O14672</a></td>
+                        <td><a href="https://www.uniprot.org/uniprotkb/O14672/entry">Disintegrin and metalloproteinase domain-containing protein 10</a></td>
+                        <td><a href="https://www.uniprot.org/uniprotkb/O14672/entry">ADAM10</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://www.uniprot.org/uniprotkb/Q8IZY2/entry">Q8IZY2</a></td>
+                        <td><a href="https://www.uniprot.org/uniprotkb/Q8IZY2/entry">Phospholipid-transporting ATPase ABCA7</a></td>
+                        <td><a href="https://www.uniprot.org/uniprotkb/Q8IZY2/entry">ABCA7</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://www.uniprot.org/uniprotkb/Q9ULE6/entry">Q9ULE6</a></td>
+                        <td><a href="https://www.uniprot.org/uniprotkb/Q9ULE6/entry">Paladin</a></td>
+                        <td><a href="https://www.uniprot.org/uniprotkb/Q9ULE6/entry">PALD1</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://www.uniprot.org/uniprotkb/P14735/entry">P14735</a></td>
+                        <td><a href="https://www.uniprot.org/uniprotkb/P14735/entry">Insulin-degrading enzyme</a></td>
+                        <td><a href="https://www.uniprot.org/uniprotkb/P14735/entry">IDE</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://www.uniprot.org/uniprotkb/P53601/entry">P53601</a></td>
+                        <td><a href="https://www.uniprot.org/uniprotkb/P53601/entry">Amyloid-beta precursor protein</a></td>
+                        <td><a href="https://www.uniprot.org/uniprotkb/P53601/entry">APP</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://www.uniprot.org/uniprotkb/C9JD78/entry">C9JD78</a></td>
+                        <td><a href="https://www.uniprot.org/uniprotkb/C9JD78/entry">Acetylcholinesterase</a></td>
+                        <td><a href="https://www.uniprot.org/uniprotkb/C9JD78/entry">ACHE</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://www.uniprot.org/uniprotkb/Q8NCY6/entry">Q8NCY6</a></td>
+                        <td><a href="https://www.uniprot.org/uniprotkb/Q8NCY6/entry">Myb/SANT-like DNA-binding domain-containing protein 4</a></td>
+                        <td><a href="https://www.uniprot.org/uniprotkb/Q8NCY6/entry">MSANTD4</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://www.uniprot.org/uniprotkb/A1ZAB5/entry">A1ZAB5</a></td>
+                        <td><a href="https://www.uniprot.org/uniprotkb/A1ZAB5/entry">Protein clueless</a></td>
+                        <td><a href="https://www.uniprot.org/uniprotkb/A1ZAB5/entry">CLU</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://www.uniprot.org/uniprotkb/P56817/entry">P56817</a></td>
+                        <td><a href="https://www.uniprot.org/uniprotkb/P56817/entry">Beta-secretase 1</a></td>
+                        <td><a href="https://www.uniprot.org/uniprotkb/P56817/entry">BACE1</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://www.uniprot.org/uniprotkb/P01023/entry">P01023</a></td>
+                        <td><a href="https://www.uniprot.org/uniprotkb/P01023/entry">Alpha-2-macroglobulin</a></td>
+                        <td><a href="https://www.uniprot.org/uniprotkb/P01023/entry">A2M</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://www.uniprot.org/uniprotkb/P49841/entry">P49841</a></td>
+                        <td><a href="https://www.uniprot.org/uniprotkb/P49841/entry">Glycogen synthase kinase-3 beta</a></td>
+                        <td><a href="https://www.uniprot.org/uniprotkb/P49841/entry">GSK3B</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://www.uniprot.org/uniprotkb/P49768/entry">P49768</a></td>
+                        <td><a href="https://www.uniprot.org/uniprotkb/P49768/entry">Presenilin</a></td>
+                        <td><a href="https://www.uniprot.org/uniprotkb/P49768/entry">PSEN1</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://www.uniprot.org/uniprotkb/P10636/entry">P10636</a></td>
+                        <td><a href="https://www.uniprot.org/uniprotkb/P10636/entry">Microtubule-associated protein tau</a></td>
+                        <td><a href="https://www.uniprot.org/uniprotkb/P10636/entry">MAPT</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://www.uniprot.org/uniprotkb/P07858/entry">P07858</a></td>
+                        <td><a href="https://www.uniprot.org/uniprotkb/P07858/entry">Cathepsin B</a></td>
+                        <td><a href="https://www.uniprot.org/uniprotkb/P07858/entry">CTSB</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://www.uniprot.org/uniprotkb/Q8N4C8/entry">Q8N4C8</a></td>
+                        <td><a href="https://www.uniprot.org/uniprotkb/Q8N4C8/entry">Misshapen-like kinase 1</a></td>
+                        <td><a href="https://www.uniprot.org/uniprotkb/Q8N4C8/entry">MINK1</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://www.uniprot.org/uniprotkb/O95411/entry">O95411</a></td>
+                        <td><a href="https://www.uniprot.org/uniprotkb/O95411/entry">Putative TGFB1-induced anti-apoptotic factor 1</a></td>
+                        <td><a href="https://www.uniprot.org/uniprotkb/O95411/entry">TIAF1</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://www.uniprot.org/uniprotkb/O15040/entry">O15040</a></td>
+                        <td><a href="https://www.uniprot.org/uniprotkb/O15040/entry">Tectonin beta-propeller repeat-containing protein 2</a></td>
+                        <td><a href="https://www.uniprot.org/uniprotkb/O15040/entry">TECPR2</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://www.uniprot.org/uniprotkb/P03886/entry">P03886</a></td>
+                        <td><a href="https://www.uniprot.org/uniprotkb/P03886/entry">NADH-ubiquinone oxidoreductase chain 1</a></td>
+                        <td><a href="https://www.uniprot.org/uniprotkb/P03886/entry">MT-ND1</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://www.uniprot.org/uniprotkb/P03891/entry">P03891</a></td>
+                        <td><a href="https://www.uniprot.org/uniprotkb/P03891/entry">NADH-ubiquinone oxidoreductase chain 2</a></td>
+                        <td><a href="https://www.uniprot.org/uniprotkb/P03891/entry">MT-ND2</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://www.uniprot.org/uniprotkb/P49810/entry">P49810</a></td>
+                        <td><a href="https://www.uniprot.org/uniprotkb/P49810/entry">Presenilin-2</a></td>
+                        <td><a href="https://www.uniprot.org/uniprotkb/P49810/entry">PSEN2</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://www.uniprot.org/uniprotkb/Q86X27/entry">Q86X27</a></td>
+                        <td><a href="https://www.uniprot.org/uniprotkb/Q86X27/entry">RALGPS2</a></td>
+                        <td><a href="https://www.uniprot.org/uniprotkb/Q86X27/entry">RALGPS2</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://www.uniprot.org/uniprotkb/Q9NZC2/entry">Q9NZC2</a></td>
+                        <td><a href="https://www.uniprot.org/uniprotkb/Q9NZC2/entry">Triggering receptor expressed on myeloid cells 2</a></td>
+                        <td><a href="https://www.uniprot.org/uniprotkb/Q9NZC2/entry">TREM2</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://www.uniprot.org/uniprotkb/P98160/entry">P98160</a></td>
+                        <td><a href="https://www.uniprot.org/uniprotkb/P98160/entry">Basement membrane-specific heparan sulfate proteoglycan core protein</a></td>
+                        <td><a href="https://www.uniprot.org/uniprotkb/P98160/entry">HSPG2</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://www.uniprot.org/uniprotkb/Q16643/entry">Q16643</a></td>
+                        <td><a href="https://www.uniprot.org/uniprotkb/Q16643/entry">Drebrin</a></td>
+                        <td><a href="https://www.uniprot.org/uniprotkb/Q16643/entry">DBN1</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://www.uniprot.org/uniprotkb/P01034/entry">P01034</a></td>
+                        <td><a href="https://www.uniprot.org/uniprotkb/P01034/entry">Cystatin-C</a></td>
+                        <td><a href="https://www.uniprot.org/uniprotkb/P01034/entry">CST3</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://www.uniprot.org/uniprotkb/P05231/entry">P05231</a></td>
+                        <td><a href="https://www.uniprot.org/uniprotkb/P05231/entry">Interleukin-6</a></td>
+                        <td><a href="https://www.uniprot.org/uniprotkb/P05231/entry">IL6</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://www.uniprot.org/uniprotkb/O95185/entry">O95185</a></td>
+                        <td><a href="https://www.uniprot.org/uniprotkb/O95185/entry">Netrin receptor UNC5C</a></td>
+                        <td><a href="https://www.uniprot.org/uniprotkb/O95185/entry">UNC5C</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://www.uniprot.org/uniprotkb/O96008/entry">O96008</a></td>
+                        <td><a href="https://www.uniprot.org/uniprotkb/O96008/entry">Mitochondrial import receptor subunit TOM40 homolog</a></td>
+                        <td><a href="https://www.uniprot.org/uniprotkb/O96008/entry">TOMM40</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://www.uniprot.org/uniprotkb/P23560/entry">P23560</a></td>
+                        <td><a href="https://www.uniprot.org/uniprotkb/P23560/entry">Neurotrophic factor BDNF precursor form</a></td>
+                        <td><a href="https://www.uniprot.org/uniprotkb/P23560/entry">BDNF</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://www.uniprot.org/uniprotkb/Q2VPA4/entry">Q2VPA4</a></td>
+                        <td><a href="https://www.uniprot.org/uniprotkb/Q2VPA4/entry">Complement component receptor 1-like protein</a></td>
+                        <td><a href="https://www.uniprot.org/uniprotkb/Q2VPA4/entry">CR1L</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://www.uniprot.org/uniprotkb/P01011/entry">P01011</a></td>
+                        <td><a href="https://www.uniprot.org/uniprotkb/P01011/entry">Alpha-1-antichymotrypsin</a></td>
+                        <td><a href="https://www.uniprot.org/uniprotkb/P01011/entry">SERPINA3</a></td>
+                    </tr>
+                    <tr>
+                        <td><a href="https://www.uniprot.org/uniprotkb/P37840/entry">P37840</a></td>
+                        <td><a href="https://www.uniprot.org/uniprotkb/P37840/entry">Alpha-synuclein</a></td>
+                        <td><a href="https://www.uniprot.org/uniprotkb/P37840/entry">SNCA</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <hr>
+
+        <div id="pathways">
+            <h2>Pathways</h2>
+            <img id="pathway_img" src="images/pathway.jpg"><br>
+            <a id="pathway_kegg" href="https://www.kegg.jp/entry/H00056">Alzheimer's Disease Pathway using KEGG</a>
+            <p>The image above is a KEGG pathway map for Alzheimer’s disease (hsa05010), illustrating the key molecular 
+                and cellular mechanisms involved in the disease. It highlights processes such as amyloid precursor protein 
+                (APP) cleavage leading to amyloid-β (Aβ) plaque formation, tau protein hyperphosphorylation causing neurofibrillary 
+                tangles, mitochondrial dysfunction, oxidative stress, and neuronal apoptosis. Additionally, it maps out disruptions 
+                in calcium signaling, autophagy, synaptic transmission, and inflammatory responses. This comprehensive diagram 
+                integrates multiple signaling pathways and interactions between genes and proteins, offering valuable insights 
+                into the progression of Alzheimer’s and serving as a visual reference for correlating bioinformatics findings 
+                with biological processes.</p>
+        </div>
+
+        <hr>
+
+        <div id="drugs">
+            <h2>Drugs & Treatments</h2>
+            <h3>Here is a list of FDA-approved drugs for the treatment of Alzheimer's disease:
+            </h3>
+            <p>For Mild to Moderate Alzheimer's Disease
+            </p>
+            <ol>
+                <li>Cholinesterase Inhibitors:
+                <ul>
+                    <li><a href="https://pubmed.ncbi.nlm.nih.gov/29923184/">Donepezil</a>: Prevents the breakdown of acetylcholine. Can treat mild, moderate, and severe Alzheimer's.</li>
+                    <li><a href="https://pubmed.ncbi.nlm.nih.gov/39498781/">Galantamine</a>: Reduces the breakdown of acetylcholine and stimulates released acetylcholine.</li>
+                    <li><a href="https://pubmed.ncbi.nlm.nih.gov/18686744/">Rivastigmine</a>: Prevents the breakdown of acetylcholine and butyrylcholine.</li>
+                </ul></li>
+                <li>Combination Medications:
+                <ul>
+                    <li><a href="https://pubmed.ncbi.nlm.nih.gov/34851866/">Memantine and Donepezil</a>: Combines the NMDA antagonist memantine, which regulates glutamate, with donepezil.
+                    </li>
+                </ul></li>
+            </ol>
+
+            <p>For Moderate to Severe Alzheimer's Disease
+            </p>
+
+            <ol>
+                <li>Memantine: An NMDA antagonist that helps regulate glutamate levels to prevent brain cell death.
+                </li>
+                <li><a href="https://pubmed.ncbi.nlm.nih.gov/18686744/">Rivastigmine Patch</a>: A patch version of rivastigmine suitable for those who prefer not to take oral medications.
+                </li>
+                <li>Donepezil (also for moderate to severe).
+                </li>
+            </ol>
+
+            <p>Immunotherapy for Early Alzheimer's Disease
+            </p>
+
+            <ol>
+                <li><a href="https://pubmed.ncbi.nlm.nih.gov/36449413/">Lecanemab</a>: Targets beta-amyloid plaques to reduce cognitive decline in early Alzheimer's.
+                </li>
+                <li><a href="https://pubmed.ncbi.nlm.nih.gov/33720637/">Donanemab</a>: Similar to lecanemab, it targets beta-amyloid to help reduce plaques.
+                </li>
+            </ol>
+
+            <p>Additional Treatments
+            </p>
+            <ul><li><a href="https://pubmed.ncbi.nlm.nih.gov/37930669/">Brexpiprazole</a>: An atypical antipsychotic used to treat agitation associated with Alzheimer's.
+            </li></ul>
+
+            <p>
+                These medications can help manage cognitive and behavioral symptoms, slowing disease progression and maintaining function for longer periods.
+            </p>
+
+            <img id="drug_img" src="images/drugs.jpg" alt=""><br>
+            <a id="references" href="https://www.nia.nih.gov/health/alzheimers-treatment/how-alzheimers-disease-treated#:~:text=Lecanemab%20and%20donanemab%20are%20FDA,hallmark%20brain%20changes%20in%20Alzheimer's.">References</a>
+        </div>
+
+        <hr>
+
+        <div id="guide">
+            <h2>Caregiver Guide</h2>
+            <h3>Essential caregiving tips and resources </h3>
+            <ul>
+                <li><a id="tip_1" href="https://www.alzheimers.gov/life-with-dementia/tips-caregivers">
+                    Tips for Caregivers and Families of People With Dementia</a>
+                </li>
+                <li><a id="tip_2" href="https://www.nia.nih.gov/health/alzheimers-caregiving/adapting-activities-people-alzheimers-disease">
+                    Adapting Activities for People With Alzheimer's Disease</a>
+                </li>
+            </ul>
+            <object id="pdf" type="application/pdf" data="images/Alzheimer's Patient's Caregiver Guide.pdf" ></object>
+        </div>
+
+        <hr>
+
+        <div id="support">
+            <h2>Support & Helplines</h2>
+            <h3> Care centers and emergency contacts </h3>
+            
+            <ul>
+                <li>Website: <a href="mayacare.org">mayacare.org</a></li>
+                <li>Contact: 1800 572 1343</li>
+                <li>Whatsapp: +91-95525 10400 +91-95525 10411 +91 96235 71845 +91 77450 53535</li>
+                <li>Email: <a href="service@mayacare.com">service@mayacare.com</a></li>
+                <li><a href="www.alz.org">www.alz.org</a></li>
+                <li>24/7 Helpline: 800.272.3900</li>
+            </ul>
+        </div>
+
+    </main>
+
+    
+
+    <!-- <div id="footer_container">
+        <div id="footer">
+            
+        </div>
+    </div> -->
+
+
+
+    <script>
+        const resizeBtn = document.querySelector('[data-resize-btn]');
+
+        resizeBtn.addEventListener('click', function(e){
+            e.preventDefault();
+            document.body.classList.toggle('sb-expanded');
+        });
+
+
+        function changeFunc() {
+            var selectBox = document.getElementById("selectBox");
+            var selectedValue = selectBox.options[selectBox.selectedIndex].value;
+            var url = document.querySelector("#about_img");
+
+            if(selectedValue=="eng"){
+                document.getElementById("about_ad_h2").textContent="About Alzheimer's";
+                // document.getElementById("about_ad_h3_1").textContent="Understanding the disease";
+                // document.getElementById("about_ad_p1").textContent="Alzheimer’s Disease (AD) is a progressive neurodegenerative disorder that primarily affects memory, thinking, and behavior. It is the most common cause of dementia, impacting millions worldwide.";
+                // document.getElementById("about_ad_h3_2").textContent="What happens in AD";
+                // document.getElementById("about_ad_p2").textContent="Accumulation of beta-amyloid plaques and tau tangles in the brain. Loss of neuronal connections and brain cell death. Gradual decline in cognitive functions, leading to memory loss and confusion.";
+                // document.getElementById("about_ad_h3_3").textContent="Why does it matter?";
+                // document.getElementById("about_ad_p3").textContent="No cure currently exists, and treatments only manage symptoms. Early detection can help slow disease progression and improve quality of life.";
+                document.getElementById("about_ad_h3_4").textContent="Summary of the paper on Alzheimer’s Disease";
+                document.getElementById("about_ad_h4_1").textContent="Population Impact";
+                document.getElementById("about_ad_h4_2").textContent="Disease Overview";
+                document.getElementById("about_ad_h4_3").textContent="Risk Factors";
+                document.getElementById("about_ad_h4_4").textContent="Pathology & Mechanisms";
+                document.getElementById("about_ad_h4_5").textContent="Diagnosis & Drug Development";
+                document.getElementById("about_ad_h4_6").textContent="APOE4 & Alzheimer’s Disease";
+                document.getElementById("about_ad_h4_7").textContent="Sex Differences in Alzheimer’s Disease";
+                document.getElementById("about_ad_h4_8").textContent="Epigenetic Clocks & Alzheimer’s Disease";
+
+                document.getElementById("about_ad_p_1").innerHTML="Globally, 32.3 million people have Alzheimer's dementia (11.4 million men, 20.9 million women).<br />In Europe, 6.9 million people are affected (1.9 million men, 5.0 million women).<br />In the U.S., 6.9 million Americans aged 65+ have AD, projected to reach 13.8 million by 2060 without medical breakthroughs.";
+                document.getElementById("about_ad_p_2").innerHTML="Alzheimer’s disease (AD) is a neurodegenerative disorder marked by:<br>β-amyloid (Aβ) plaques and hyperphosphorylated tau (pTau) tangles<br>Memory loss and cognitive decline<br>Unclear disease mechanisms and lack of treatments to halt progression";
+                document.getElementById("about_ad_p_3").innerHTML="✅Genetics:<br>APOE4 is the strongest genetic risk factor for AD.<br>Familial AD (FAD) is linked to mutations in APP, PSEN1, and PSEN2 genes.";
+                document.getElementById("about_ad_p_4").innerHTML="✅Environmental & Metabolic Factors:<br>    Aging, inflammation, infections, diabetes, and lifestyle factors contribute to AD.";
+                document.getElementById("about_ad_p_5").innerHTML="Aβ Accumulation: Impaired clearance leads to neurotoxicity and inflammation.<br>Tau Pathology: Abnormal tau aggregation spreads neurodegeneration.<br>Neuroinflammation: Microglial activation plays a role in disease progression.";
+                document.getElementById("about_ad_p_6").innerHTML="🔬Biomarkers: Studied in CSF (Cerebrospinal fluid) and peripheral blood.<br>💊 Current Drugs: Cholinesterase inhibitors and NMDA antagonists only manage symptoms.<br>🧪 Emerging Therapies: Aβ-targeting drugs and tau-focused treatments.";
+                document.getElementById("about_ad_p_7").innerHTML="🔹 APOE4 affects lipid transport, neurovascular function, and microglial activity.<br>🔹 Carriers have an increased risk and earlier onset of AD.<br>🔹 Targeting APOE4 could lead to new therapeutic strategies.";
+                document.getElementById("about_ad_p_8").innerHTML="💡 Women are more affected than men due to biological differences:<br>Hormones: Estrogen decline post-menopause increases risk.<br>Genetics: X chromosome-linked genes play a role.<br>Metabolism: Age-related Y chromosome loss is linked to neurodegeneration.<br>Research Bias: Historically male-focused, but tools like XWAS now uncover sex-specific genetic factors.";
+                document.getElementById("about_ad_p_9").innerHTML="🧬 Epigenetic clocks measure biological aging through DNA methylation patterns:<br>📌 First-generation clocks (Hannum, Horvath) estimate age but have limitations.<br>📌 Second-generation clocks (PhenoAge, GrimAge) predict health risks and lifespan.<br>📌 Third-generation clocks (DunedinPoAm, DunedinPACE) track biological aging rate.<br>📌 Brain-specific clocks (DNAmClockCortical, PCBrainAge) detect changes linked to neurodegeneration.";
+                
+                url.src = 'images/about_eng.jpg';
+            }
+            else if(selectedValue=="mar"){
+                document.getElementById("about_ad_h2").textContent="About Alzheimer's in Marathi";
+                // document.getElementById("about_ad_h3_1").textContent="next hi";
+                // document.getElementById("about_ad_p1").textContent="next hi";
+                // document.getElementById("about_ad_h3_2").textContent="next hi";
+                // document.getElementById("about_ad_p2").textContent="next hi";
+                // document.getElementById("about_ad_h3_3").textContent="next hi";
+                // document.getElementById("about_ad_p3").textContent="next hi";
+
+                document.getElementById("about_ad_h3_4").textContent="अल्झायमरच्या आजाराचा सारांश";
+                document.getElementById("about_ad_h4_1").textContent="लोकसंख्येवर प्रभाव";
+                document.getElementById("about_ad_h4_2").textContent="रोगाचा आढावा";
+                document.getElementById("about_ad_h4_3").textContent="धोका वाढवणारे घटक";
+                document.getElementById("about_ad_h4_4").textContent="रोगनिर्मिती आणि यंत्रणा";
+                document.getElementById("about_ad_h4_5").textContent="निदान आणि औषधोपचार";
+                document.getElementById("about_ad_h4_6").textContent="APOE4 आणि अल्झायमर";
+                document.getElementById("about_ad_h4_7").textContent="पुरुष आणि महिलांमधील फरक";
+                document.getElementById("about_ad_h4_8").textContent="एपिजेनेटिक क्लॉक्स आणि अल्झायमर";
+
+                document.getElementById("about_ad_p_1").innerHTML="जगभरात 32.3 दशलक्ष लोकांना अल्झायमर डिमेंशिया आहे (11.4 दशलक्ष पुरुष, 20.9 दशलक्ष महिला).<br>युरोपमध्ये, 6.9 दशलक्ष लोक प्रभावित आहेत (1.9 दशलक्ष पुरुष, 5.0 दशलक्ष महिला).<br>अमेरिकेत, 6.9 दशलक्ष 65+ वयोगटातील नागरिकांना अल्झायमर आहे, आणि 2060 पर्यंत 13.8 दशलक्षांपर्यंत पोहोचण्याची शक्यता आहे.";
+                document.getElementById("about_ad_p_2").innerHTML="अल्झायमर हा मस्तिष्काच्या न्यूरोडिजनरेटिव्ह आजारांपैकी एक असून त्यामध्ये:β-अमायलॉईड (Aβ) प्लॅक्स आणि हायपरफॉस्फोरिलेटेड टाऊ (pTau) टॅंगल्स तयार होतात.<br>स्मरणशक्ती आणि संज्ञानात्मक घट होते.<br>रोगाची नेमकी कारणे अजूनही अस्पष्ट असून प्रभावी उपचार नाहीत.";
+                document.getElementById("about_ad_p_3").innerHTML="✅ अनुवंशिकता:<br>APOE4 हा सर्वात मोठा अनुवांशिक धोका आहे.<br>फॅमिलियल AD (FAD) हे APP, PSEN1 आणि PSEN2 जनुकीय उत्परिवर्तनांशी संबंधित आहे.";
+                document.getElementById("about_ad_p_4").innerHTML="✅ पर्यावरणीय व चयापचय घटक:<br>वृद्धत्व, जळजळ (इन्फ्लॅमेशन), संसर्ग, मधुमेह आणि जीवनशैली या गोष्टी अल्झायमर वाढवतात.";
+                document.getElementById("about_ad_p_5").innerHTML="🧠 Aβ संचय: तो मस्तिष्कासाठी विषारी ठरतो आणि न्यूरोइन्फ्लेमेशन वाढवतो.<br>🧠 टाऊ पॅथॉलॉजी: टाऊ प्रथिनांचा असामान्य संचय न्यूरोडिजनरेशनला कारणीभूत ठरतो.<br>🧠 न्यूरोइन्फ्लेमेशन: मायक्रोग्लिया पेशी सक्रिय होऊन रोग वाढवतात.";
+                document.getElementById("about_ad_p_6").innerHTML="🔬 बायोमार्कर्स: CSF (सरेब्रोस्पायनल फ्लुईड) आणि रक्तातील बायोमार्कर्स अभ्यासात आहेत.<br>💊 सध्याचे औषधे: कोलिनेस्ट्रेस इनहिबिटर आणि NMDA अँटॅगोनिस्ट फक्त लक्षणे नियंत्रित करतात.<br>🧪 नवीन उपचार: Aβ आणि टाऊ लक्ष करणारी औषधे विकसित होत आहेत.";
+                document.getElementById("about_ad_p_7").innerHTML="🔹 APOE4 मेंदूतील चरबी वाहतूक, न्यूरोव्हॅस्क्युलर कार्य आणि मायक्रोग्लिया क्रियाकलापांवर परिणाम करतो.<br>🔹 APOE4 वाहकांमध्ये अल्झायमर होण्याचा धोका आणि लवकर सुरुवात होण्याची शक्यता जास्त आहे.<br>🔹 APOE4 ला लक्ष्य करणारे उपचार भविष्यात फायदेशीर ठरू शकतात.";
+                document.getElementById("about_ad_p_8").innerHTML="💡 महिलांना अल्झायमरचा धोका अधिक असतो, मुख्य कारणे:<br>स्ट्रॉजनची घट (मेनोपॉज नंतर धोका वाढतो).<br>X क्रोमोसोमशी संबंधित अनुवांशिक घटक.<br>Y क्रोमोसोमचे वयासोबत लोप, न्यूरोडिजनरेशनशी संबंध.<br>मागील संशोधन पुरुषांवर केंद्रित होते, पण आता XWAS सारखी साधने लिंग-विशिष्ट घटक ओळखत आहेत.";
+                document.getElementById("about_ad_p_9").innerHTML="🧬 एपिजेनेटिक क्लॉक्स DNA मिथाइलेशन पॅटर्नद्वारे जैविक वृद्धत्व मोजतात.<br>📌 पहिल्या पिढीचे क्लॉक्स (Hannum, Horvath) वयाचा अंदाज लावतात, पण मर्यादा आहेत.<br>📌 दुसऱ्या पिढीचे क्लॉक्स (PhenoAge, GrimAge) आरोग्याचा धोका आणि आयुर्मानाचा अंदाज लावतात.<br>📌 तिसऱ्या पिढीचे क्लॉक्स (DunedinPoAm, DunedinPACE) जैविक वृद्धत्वाचा वेग मोजतात.<br>📌 मेंदू-विशिष्ट क्लॉक्स (DNAmClockCortical, PCBrainAge) न्यूरोडिजनरेशन ओळखतात.";
+
+                url.src = 'images/about_mar.jpg';
+            }
+            else{
+                document.getElementById("about_ad_h2").textContent="About Alzheimer's in Hindi";
+                // document.getElementById("about_ad_h3_1").textContent="next hi";
+                // document.getElementById("about_ad_p1").textContent="next hi";
+                // document.getElementById("about_ad_h3_2").textContent="next hi";
+                // document.getElementById("about_ad_p2").textContent="next hi";
+                // document.getElementById("about_ad_h3_3").textContent="next hi";
+                // document.getElementById("about_ad_p3").textContent="next hi";
+
+                document.getElementById("about_ad_h3_4").textContent="अल्झायमर रोग का सारांश";
+                document.getElementById("about_ad_h4_1").textContent="जनसंख्या पर प्रभाव";
+                document.getElementById("about_ad_h4_2").textContent="रोग का अवलोकन";
+                document.getElementById("about_ad_h4_3").textContent="जोखिम कारक";
+                document.getElementById("about_ad_h4_4").textContent="रोग की प्रक्रिया और तंत्र";
+                document.getElementById("about_ad_h4_5").textContent="निदान और उपचार";
+                document.getElementById("about_ad_h4_6").textContent="APOE4 और अल्झाइमर";
+                document.getElementById("about_ad_h4_7").textContent="लिंग के अनुसार अंतर";
+                document.getElementById("about_ad_h4_8").textContent="एपिजेनेटिक क्लॉक्स";
+
+                document.getElementById("about_ad_p_1").innerHTML="दुनिया में 32.3 मिलियन लोग अल्झाइमर डिमेंशिया से प्रभावित हैं (11.4 मिलियन पुरुष, 20.9 मिलियन महिलाएं)।<br>यूरोप में, 6.9 मिलियन लोग प्रभावित हैं (1.9 मिलियन पुरुष, 5.0 मिलियन महिलाएं)।<br>अमेरिका में, 6.9 मिलियन 65+ उम्र के लोग अल्झाइमर से पीड़ित हैं, और 2060 तक 13.8 मिलियन तक बढ़ने का अनुमान है।";
+                document.getElementById("about_ad_p_2").innerHTML="अल्झाइमर एक न्यूरोडीजेनेरेटिव बीमारी है, जिसमें:<br>β-अमायलॉइड (Aβ) प्लाक्स और हाइपरफॉस्फोराइलेटेड टाऊ (pTau) टंगल्स बनते हैं।<br>स्मरणशक्ति और संज्ञानात्मक क्षमता का ह्रास होता है।<br>रोग की सही वजह स्पष्ट नहीं है और कोई इलाज नहीं है।";
+                document.getElementById("about_ad_p_3").innerHTML="✅ जेनेटिक्स:<br>APOE4 सबसे बड़ा आनुवंशिक जोखिम कारक है।<br>फैमिलियल AD (FAD) APP, PSEN1 और PSEN2 जीन में म्यूटेशन से जुड़ा है।";
+                document.getElementById("about_ad_p_4").innerHTML="✅ पर्यावरणीय और मेटाबोलिक कारक:<br>उम्र बढ़ना, सूजन, संक्रमण, मधुमेह और जीवनशैली अल्झाइमर को प्रभावित करते हैं।";
+                document.getElementById("about_ad_p_5").innerHTML="🧠 Aβ संचय: खराब निकासी से न्यूरोटॉक्सिसिटी और सूजन होती है।<br>🧠 टाऊ पैथोलॉजी: टाऊ प्रोटीन का असामान्य संचय न्यूरोडीजेनेरेशन बढ़ाता है।<br>🧠 न्यूरोइन्फ्लेमेशन: माइक्रोग्लिया कोशिकाएं सक्रिय होकर बीमारी को बढ़ाती हैं।";
+                document.getElementById("about_ad_p_6").innerHTML="🔬 बायोमार्कर: CSF (सेरेब्रोस्पाइनल फ्लुइड) और रक्त बायोमार्कर अध्ययन में हैं।<br>💊 वर्तमान दवाएं: कोलिनेस्टरेज इनहिबिटर और NMDA एंटागोनिस्ट केवल लक्षणों का इलाज करते हैं।<br>🧪 नए उपचार: Aβ और टाऊ पर केंद्रित दवाएं विकसित हो रही हैं।";
+                document.getElementById("about_ad_p_7").innerHTML="🔹 APOE4 लिपिड ट्रांसपोर्ट, न्यूरोवैस्कुलर कार्य और माइक्रोग्लिया गतिविधि को प्रभावित करता है।<br>🔹 APOE4 वाहकों में अल्झाइमर का जोखिम अधिक और शुरुआत जल्दी होती है।";
+                document.getElementById("about_ad_p_8").innerHTML="💡 महिलाओं में जोखिम अधिक है – हार्मोनल और जेनेटिक कारणों से।";
+                document.getElementById("about_ad_p_9").innerHTML="🧬 DNA मिथाइलेशन पैटर्न से जैविक उम्र का पता चलता है।";
+
+                url.src = 'images/about_hin.jpg';
+            }
+        }
+
+
+        function changeFunc2() {
+            var selectBox = document.getElementById("selectBox2");
+            var selectedValue = selectBox.options[selectBox.selectedIndex].value;
+            var url = document.querySelector("#survey_form");
+        
+
+            if(selectedValue=='eng'){
+                // location.reload(true);
+                // document.getElementById("aware_h2").textContent="Awareness & Survey";
+                // document.getElementById("aware_h3_1").textContent="Survey insights and the need for awareness";
+                // document.getElementById("aware_h3_2").textContent="Survey Evaluation";
+                document.getElementById("survey_form").textContent="Fill Survey Form in English";
+                // document.getElementById("aware_li1").textContent="Good 154/205 : 24.9% ";
+                // document.getElementById("aware_li2").textContent="Poor 51/205 : 75.1% ";
+                url.href = 'https://docs.google.com/forms/d/e/1FAIpQLSf1Qo3veVBKrddcrHKCTvaTiHQCVi0uPwscwUhgrA3FA7Ocig/viewform?usp=header';
+            }
+            else if(selectedValue=='mar'){
+                // location.reload(true);
+                // document.getElementById("aware_h2").textContent="About Alzheimer's";
+                // document.getElementById("aware_h3_1").textContent="About Alzheimer's";
+                // document.getElementById("aware_h3_2").textContent="About Alzheimer's";
+                document.getElementById("survey_form").textContent="सर्वेक्षण फॉर्म भरा";
+                // document.getElementById("aware_li1").textContent="About Alzheimer's";
+                // document.getElementById("aware_li2").textContent="About Alzheimer's";
+                url.href = 'https://forms.gle/khr19edXPZjVWbcC7';
+            }
+            else{
+                // location.reload(true);
+                // document.getElementById("aware_h2").textContent="About Alzheimer's";
+                // document.getElementById("aware_h3_1").textContent="About Alzheimer's";
+                // document.getElementById("aware_h3_2").textContent="About Alzheimer's";
+                document.getElementById("survey_form").textContent="सर्वे फ़ॉर्म भरें";
+                // document.getElementById("aware_li1").textContent="About Alzheimer's";
+                // document.getElementById("aware_li2").textContent="About Alzheimer's";
+                url.href = 'https://forms.gle/2JLQSTdB5ezyD6o38';
+            }
+        }
+
+
+    //     document.getElementById("selectBox2").onclick = function() {
+    //     var link = document.getElementById("survey_form");
+    //     link.setAttribute("href", "https://forms.gle/khr19edXPZjVWbcC7");
+    //     return false;
+    // }
+
+        
+
+
+    </script>
+    
+</body>
+</html>
